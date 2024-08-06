@@ -1,0 +1,152 @@
+.banner {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 20px;
+}
+
+.banner h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.banner button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.banner button:hover {
+    background-color: #555;
+}
+
+.featured-products {
+    margin-bottom: 40px;
+}
+
+.featured-products h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 15%;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.product .price {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.product button:hover {
+    background-color: #555;
+}
+
+.newsletter {
+    background-color: #f8f8f8;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.newsletter h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin-right: 10px;
+    width: 300px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.newsletter button:hover {
+    background-color: #555;
+}
+
+.about-us, .contact-us {
+    padding: 20px;
+    text-align: center;
+}
+
+.about-us h2, .contact-us h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-us p, .contact-us p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact-us ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-us ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}

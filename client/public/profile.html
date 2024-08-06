@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="stylesheets/main.css" />
+    <link rel="stylesheet" href="stylesheets/profile.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Your Profile</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="category.html">Category</a></li>
+            <li><a href="wishlist.html">Wishlist</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="profile-info">
+          <h2>Personal Information</h2>
+          <div class="info-group">
+            <label for="username">Username:</label>
+            <p id="username">Loading...</p>
+          </div>
+          <div class="info-group">
+            <label for="email">Email:</label>
+            <p id="email">Loading...</p>
+          </div>
+          <div class="info-group">
+            <label for="join-date">Member Since:</label>
+            <p id="join-date">Loading...</p>
+          </div>
+          <button id="edit-profile">Edit Profile</button>
+        </section>
+        <section class="order-history">
+          <h2>Order History</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Order ID</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>Total</th>
+                <th>Details</th>
+              </tr>
+            </thead>
+            <tbody id="order-history-body">
+              <tr>
+                <td colspan="5">Loading...</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 E-Commerce Site. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="javascripts/profile.js"></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="stylesheets/main.css" />
+    <link rel="stylesheet" href="stylesheets/cart.css" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Shopping Cart</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="search.html">Search</a></li>
+                    <li><a href="category.html">Category</a></li>
+                    <li><a href="wishlist.html">Wishlist</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="cart-items">
+                <h2>Your Items</h2>
+                <div id="cart-items"></div> <!-- Ensure this element is present -->
+            </section>
+            <section class="cart-summary">
+                <h2>Summary</h2>
+                <p id="total-items">Total Items: 0</p>
+                <p id="total-price" class="total-price">Total Price: $0.00</p>
+                <button id="checkout-btn">Proceed to Checkout</button>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 E-Commerce Site. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="javascripts/cart.js"></script>
+</body>
+</html>

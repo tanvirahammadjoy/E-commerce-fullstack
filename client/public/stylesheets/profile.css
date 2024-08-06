@@ -1,0 +1,75 @@
+/* profile.css */
+.profile-info,
+.order-history {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.profile-info h2,
+.order-history h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.info-group {
+  margin-bottom: 15px;
+}
+
+.info-group label {
+  font-weight: bold;
+  color: #666;
+}
+
+.info-group p {
+  margin: 5px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.profile-info button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-info button:hover {
+  background-color: #0056b3;
+}
+
+.order-history table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-history th,
+.order-history td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.order-history th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.order-history td button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.order-history td button:hover {
+  background-color: #0056b3;
+}

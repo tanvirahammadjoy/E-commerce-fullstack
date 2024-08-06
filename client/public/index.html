@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="stylesheets/main.css" />
+    <link rel="stylesheet" href="stylesheets/home.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Welcome to Our E-Commerce Site</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="category.html">Category</a></li>
+            <li><a href="wishlist.html">Wishlist</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+          </ul>
+        </nav>
+        <div class="search-bar">
+          <input type="text" placeholder="Search for products..." />
+          <button>Search</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="banner">
+        <h2>Discover the Best Products at Unbeatable Prices</h2>
+        <button>Shop Now</button>
+      </section>
+      <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="products" id="featured-products">
+          <!-- Featured products will be loaded here -->
+        </div>
+      </section>
+      <section class="newsletter">
+        <h2>Subscribe to our Newsletter</h2>
+        <p>Get updates on our latest products and offers.</p>
+        <form>
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+      </section>
+      <section class="about-us">
+        <h2>About Us</h2>
+        <p>
+          We are a leading e-commerce platform offering a wide range of products
+          to meet all your needs. Our mission is to provide the best shopping
+          experience with unbeatable prices and top-notch customer service.
+        </p>
+      </section>
+      <section class="contact-us">
+        <h2>Contact Us</h2>
+        <p>Have any questions? Reach out to us at:</p>
+        <ul>
+          <li>Email: support@ecommerce.com</li>
+          <li>Phone: +1 (123) 456-7890</li>
+          <li>Address: 123 E-Commerce St, Shopping City, USA</li>
+        </ul>
+      </section>
+      <!-- Add cart items and cart summary sections here -->
+      <section class="cart-items">
+        <h2>Your Items</h2>
+        <div id="cart-items"></div>
+      </section>
+      <section class="cart-summary">
+        <h2>Summary</h2>
+        <p id="total-items">Total Items: 0</p>
+        <p id="total-price" class="total-price">Total Price: $0.00</p>
+        <button id="checkout-btn">Proceed to Checkout</button>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 E-Commerce Site. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="javascripts/main.js"></script>
+    <script src="javascripts/home.js"></script>
+  </body>
+</html>

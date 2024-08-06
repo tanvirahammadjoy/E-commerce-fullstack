@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="stylesheets/main.css" />
+    <link rel="stylesheet" href="stylesheets/register.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Register</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="search.html">Search</a></li>
+            <li><a href="category.html">Category</a></li>
+            <li><a href="wishlist.html">Wishlist</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="register-form">
+          <h2>Create a New Account</h2>
+          <div id="loading-spinner" style="display: none;">Loading...</div>
+          <form id="register-form" enctype="multipart/form-data" action="javascript:void(0);">
+            <div class="form-group">
+              <label for="fullName">fullName:</label>
+              <input type="text" id="fullName" name="fullName" required />
+            </div>
+            <div class="form-group">
+              <label for="username">Username:</label>
+              <input type="text" id="username" name="username" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required />
+            </div>
+            <div class="form-group">
+              <label for="confirm-password">Confirm Password:</label>
+              <input
+                type="password"
+                id="confirm-password"
+                name="confirm-password"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="avatar">Avatar:</label>
+              <input type="file" id="avatar" name="avatar" accept="image/*" />
+            </div>
+            <div class="form-group">
+              <label for="coverImage">Cover Image:</label>
+              <input
+                type="file"
+                id="coverImage"
+                name="coverImage"
+                accept="image/*"
+              />
+            </div>
+            <button type="submit">Register</button>
+          </form>
+          <p>Already have an account? <a href="login.html">Login here</a>.</p>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 E-Commerce Site. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/browser-image-compression@latest/dist/browser-image-compression.js"></script>
+    <script src="./javascripts/register.js"></script>
+  </body>
+</html>
